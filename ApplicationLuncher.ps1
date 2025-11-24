@@ -364,6 +364,57 @@ $aboutLabelGithub.Add_Click({
 })
 $aboutPanel.Controls.Add($aboutLabelGithub)
 
+# --- NEW: Donation Support Label ---
+
+$aboutLabelDonationTitle = New-Object System.Windows.Forms.Label
+$aboutLabelDonationTitle.Text = "Support Development:"
+$aboutLabelDonationTitle.Font = New-Object System.Drawing.Font("Segoe UI", 10, [System.Drawing.FontStyle]::Bold)
+$aboutLabelDonationTitle.AutoSize = $true
+$aboutLabelDonationTitle.Margin = New-Object System.Windows.Forms.Padding(0, 20, 0, 5)
+$aboutPanel.Controls.Add($aboutLabelDonationTitle)
+
+# Label 1 (BTC)
+$aboutLabelCrypto1 = New-Object System.Windows.Forms.Label
+$aboutLabelCrypto1.Text = "Bitcoin (BTC): bc1q5l70mhm77sqst6r4tkvmwqx4lmr0fc6ex64enc" 
+$aboutLabelCrypto1.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCrypto1.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCrypto1)
+
+# Label 2 (ETH)
+$aboutLabelCrypto2 = New-Object System.Windows.Forms.Label
+$aboutLabelCrypto2.Text = "Ethereum (ETH): 0x9598F7cF3ee2dAad2a06b808980FD8182cC73311" 
+$aboutLabelCrypto2.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCrypto2.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCrypto2)
+
+# Label 3 (SOL)
+$aboutLabelCrypto3 = New-Object System.Windows.Forms.Label
+$aboutLabelCrypto3.Text = "Solana (SOL): 36CdEL4rdtqX6PQdx7eYejbVBaoBPt8xEh8u4qncX6ML" 
+$aboutLabelCrypto3.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCrypto3.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCrypto3)
+
+# Label 4 (TRX)
+$aboutLabelCrypto4 = New-Object System.Windows.Forms.Label
+$aboutLabelCrypto4.Text = "TRON (TRX): TD9tPyd6DpinMnkiQBaXKxCcunCDQyvyFz"
+$aboutLabelCrypto4.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCrypto4.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCrypto4)
+
+# Label 5 (TON)
+$aboutLabelCrypto5 = New-Object System.Windows.Forms.Label
+$aboutLabelCrypto5.Text = "Toncoin (TON): UQDb9vadr4Kd14dMtRcrOiZzYqAfT2MeOzcciUC1Sw_3XG69"
+$aboutLabelCrypto5.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCrypto5.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCrypto5)
+
+$aboutLabelCryptoNote = New-Object System.Windows.Forms.Label
+$aboutLabelCryptoNote.Text = "Thank you for considering a donation!"
+$aboutLabelCryptoNote.Font = New-Object System.Drawing.Font("Segoe UI", 9)
+$aboutLabelCryptoNote.AutoSize = $true
+$aboutPanel.Controls.Add($aboutLabelCryptoNote)
+
+# --- End Donation Section ---
 
 $aboutLabelLicenseTitle = New-Object System.Windows.Forms.Label
 $aboutLabelLicenseTitle.Text = "Licensing Information:"
@@ -376,6 +427,7 @@ $aboutLabelLicense = New-Object System.Windows.Forms.Label
 $aboutLabelLicense.Text = "This software is licensed under the GNU General Public License v3 (GPLv3).`nCheck the LICENSE file in the project directory for full details."
 $aboutLabelLicense.Font = New-Object System.Drawing.Font("Segoe UI", 9)
 $aboutLabelLicense.AutoSize = $true
+$aboutLabelLicense.Margin = New-Object System.Windows.Forms.Padding(0, 0, 0, 15)
 $aboutPanel.Controls.Add($aboutLabelLicense)
 
 # Add the content panel to the tab
