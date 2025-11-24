@@ -44,14 +44,16 @@ The file contains two main arrays: `sequential` and `parallel`. Each task object
   "args": "/SILENT /NORESTART",
   "selected": true
 }
+```
 
-🚀 Usage
-Organize Files: Place all your installer files (MSI, EXE, etc.) and configuration files (like config.json, ApplicationLuncher.ps1, and Application Installer.cmd) into the same project folder. Create subfolders (e.g., Installers, Registry) as needed.
+##🚀 Usage
 
-Edit config.json: Modify config.json to define all your installation and script tasks.
+* **Organize Files: Place all your installer files (MSI, EXE, etc.) and configuration files (like config.json, ApplicationLuncher.ps1, and Application Installer.cmd) into the same project folder. Create subfolders (e.g., Installers, Registry) as needed.
 
-Run the Launcher: Double-click Application Installer.cmd. This file ensures the PowerShell script runs with Administrator privileges.
+* **Edit config.json: Modify config.json to define all your installation and script tasks.
 
-Select Tasks: Choose which tasks you want to run from the two tabs.
+* **Run the Launcher: Double-click Application Installer.cmd. This file ensures the PowerShell script runs with Administrator privileges.
 
-Start Installation: Click the INSTALL SELECTED button (or wait for the 30-second countdown to auto-start).
+* **Select Tasks: Choose which tasks you want to run from the two tabs.
+
+* **Start Installation: Click the INSTALL SELECTED button (or wait for the 30-second countdown to auto-start).
