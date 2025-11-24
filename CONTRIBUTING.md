@@ -10,6 +10,8 @@ Please take a moment to review this document to ensure a smooth and effective co
 
 If you find a bug in the application or configuration, please help us by submitting an issue on the GitHub Issues page.
 
+**🛑 Important Note on Maintenance:** As a personal project, **active maintenance for fixes is dependent on my limited availability.** All reported bugs are appreciated, but submitting a Pull Request (see below) is the most reliable way to get a fix implemented.
+
 **Before submitting a bug report:**
 
 1.  **Check Existing Issues:** Search the existing issues to see if the bug has already been reported.
@@ -42,7 +44,7 @@ If you have an idea for a new feature, a UI improvement, or a better way to stru
 
 ## 💻 Making a Pull Request (PR)
 
-Pull Requests are the best way to get your code changes into the project.
+Pull Requests are the most reliable way to get your code changes into the project, especially for fixes or enhancements, given the project's **limited maintenance schedule**.
 
 ### General Guidelines
 
@@ -62,5 +64,11 @@ Before submitting your Pull Request, please ensure the following:
 * [ ] Your changes address only the bug or feature described in the PR title.
 * [ ] The PR title is descriptive (e.g., `FIX: Corrected parallel task status updates`).
 * [ ] You have described the changes made and the reason for the change in the PR body.
+
+---
+
+## 🙏 Supporting the Project
+
+If you find this utility valuable but don't have time to contribute code, you can still support ongoing development through a small donation. Details are available in the **[README.md](README.md)** file and the in-app "About" tab.
 
 Thank you for helping to improve the Application Launcher!
