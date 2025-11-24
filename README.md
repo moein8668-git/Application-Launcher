@@ -57,3 +57,13 @@ The file contains two main arrays: `sequential` and `parallel`. Each task object
 * **Select Tasks:** Choose which tasks you want to run from the two tabs.
 
 * **Start Installation:** Click the INSTALL SELECTED button (or wait for the 30-second countdown to auto-start).
+
+***
+
+## 🛑 Disclaimer and Project Status
+
+This project is open-source and provided **"AS IS"** under the GPLv3 license.
+
+As a personal, side project, I may not have the capacity to provide regular bug fixes, new feature updates, or dedicated support. **The community is encouraged to submit Pull Requests for maintenance and new features.**
+
+***
