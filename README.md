@@ -81,7 +81,7 @@ This project is open-source and developed in my free time. If you find the **App
 
 ### Cryptocurrency Donations
 
-| Coin | Address (Click to Copy) |
+| Coin | Address |
 | :--- | :--- |
 | **Bitcoin (BTC)** | `bc1q5l70mhm77sqst6r4tkvmwqx4lmr0fc6ex64enc`|
 | **Ethereum (ETH)** | `0x9598F7cF3ee2dAad2a06b808980FD8182cC73311`|
