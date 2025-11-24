@@ -1,4 +1,13 @@
 # Application Launcher (v1.2)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Moein-red.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-%F0%9F%94%97-brightgreen.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+![Version](https://img.shields.io/badge/Version-1.2-green)
+![GitHub issues](https://img.shields.io/github/issues/moein8668-git/Application-Launcher)
+![GitHub stars](https://img.shields.io/github/stars/moein8668-git/Application-Launcher)
+![Code size](https://img.shields.io/github/languages/code-size/moein8668-git/Application-Launcher)
 
 A powerful, modern, GUI-based application installer and script launcher built with PowerShell. This utility is designed to streamline system setup by allowing users to select and run a sequence of installers, registry tweaks, and scripts from a single, easy-to-use interface.
 
