@@ -67,3 +67,24 @@ This project is open-source and provided **"AS IS"** under the GPLv3 license.
 As a personal, side project, I may not have the capacity to provide regular bug fixes, new feature updates, or dedicated support. **The community is encouraged to submit Pull Requests for maintenance and new features.**
 
 ***
+
+***
+
+## 🤖 AI Development Note
+
+The core code logic, framework structure, and UI integration were developed, refined, and debugged by me with significant assistance from an AI coding assistant (Gemini). I am the final author and maintainer of the complete code.
+***
+
+## ❤️ Support the Project
+
+This project is open-source and developed in my free time. If you find the **Application Launcher** useful, please consider supporting its development!
+
+### Cryptocurrency Donations
+
+| Coin | Address (Click to Copy) |
+| :--- | :--- |
+| **Bitcoin (BTC)** | `bc1q5l70mhm77sqst6r4tkvmwqx4lmr0fc6ex64enc`|
+| **Ethereum (ETH)** | `0x9598F7cF3ee2dAad2a06b808980FD8182cC73311`|
+| **Solana (SOL)** | `36CdEL4rdtqX6PQdx7eYejbVBaoBPt8xEh8u4qncX6ML`|
+| **TRON (TRX)** | `TD9tPyd6DpinMnkiQBaXKxCcunCDQyvyFz`|
+| **Toncoin (TON)** | `UQDb9vadr4Kd14dMtRcrOiZzYqAfT2MeOzcciUC1Sw_3XG69`|
