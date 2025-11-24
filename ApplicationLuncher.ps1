@@ -353,7 +353,7 @@ $aboutPanel.Controls.Add($aboutLabelCreator)
 
 # GitHub Link (Styled as a link)
 $aboutLabelGithub = New-Object System.Windows.Forms.Label
-$aboutLabelGithub.Text = "GitHub: https://github.com/moein8668-git/Application-Launcher" 
+$aboutLabelGithub.Text = "GitHub: github.com/moein8668-git/Application-Launcher" 
 $aboutLabelGithub.Font = New-Object System.Drawing.Font("Segoe UI", 10, [System.Drawing.FontStyle]::Underline)
 $aboutLabelGithub.ForeColor = $primaryColor
 $aboutLabelGithub.AutoSize = $true
@@ -827,4 +827,5 @@ $form.Add_KeyPress({ $script:StopCountdown.Invoke() })
 $script:CountdownTimer.Start()
 
 # Show form
+
 [void]$form.ShowDialog()
