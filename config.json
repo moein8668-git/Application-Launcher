@@ -1,0 +1,59 @@
+{
+  "sequential": [
+    {
+      "name": "Configure System Tweak (REG)",
+      "file": "Registry\\System\\Tweak_A.reg",
+      "type": "reg",
+      "selected": true
+    },
+    {
+      "name": "Install Essential Application (EXE)",
+      "file": "Installers\\Setup_Essential.exe",
+      "type": "exe",
+      "args": "/SILENT /NORESTART",
+      "selected": true
+    },
+    {
+      "name": "Deploy Supporting Library (MSI)",
+      "file": "Installers\\Library_V1.msi",
+      "type": "msi",
+      "args": "/quiet /norestart",
+      "selected": false
+    },
+    {
+      "name": "Execute Maintenance Script (BAT)",
+      "file": "Scripts\\Run_Cleanup.bat",
+      "type": "bat",
+      "args": "/P:1",
+      "selected": true
+    },
+    {
+      "name": "Execute Windows Command (CMD)",
+      "file": "Scripts\\Log_System_Info.cmd",
+      "type": "cmd",
+      "selected": false
+    }
+  ],
+  "parallel": [
+    {
+      "name": "Install Utility Tool A (EXE)",
+      "file": "Utilities\\Tool_A_Setup.exe",
+      "type": "exe",
+      "args": "/S",
+      "selected": true
+    },
+    {
+      "name": "Install Utility Tool B (MSI)",
+      "file": "Utilities\\Tool_B_Setup.msi",
+      "type": "msi",
+      "args": "/passive",
+      "selected": true
+    },
+    {
+      "name": "Set Desktop Icons (REG)",
+      "file": "Registry\\Desktop\\Icon_Settings.reg",
+      "type": "reg",
+      "selected": true
+    }
+  ]
+}
